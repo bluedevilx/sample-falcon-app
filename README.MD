@@ -37,3 +37,15 @@ docker system prune
 wrk --duration 20s --threads 100 --connections 100 http://0.0.0.0:8000
 ```
 *where number of connections must be >= threads*
+
+
+# Add to Git Repo (New)
+```
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/bluedevilx/sample-falcon-app.git
+git push -u origin master
+```
+
+# Commit Changes to Git Repo
