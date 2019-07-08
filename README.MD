@@ -52,4 +52,5 @@ git push -u origin master
 ```
 git add .
 git commit -m "Committing changes to Git"
+git push -u origin master 
 ```
