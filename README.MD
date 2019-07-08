@@ -49,3 +49,7 @@ git push -u origin master
 ```
 
 # Commit Changes to Git Repo
+```
+git add .
+git commit -m "Committing changes to Git"
+```
